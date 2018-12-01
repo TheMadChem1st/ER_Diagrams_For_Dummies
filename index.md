@@ -140,18 +140,18 @@ In this section we will take the entities from Part 2, and establish relationshi
 #### Where to start
 
 We can begin building relationships by considering how the entities interact in real life.
-Consider the following possible relationships
-*Students and Teachers
-*Teachers and Classes
-*Teachers and Staff
-*Classes and Students
-*Classes and Staff
-*Staff and Students
+#### Problem 3.
+Consider the following possible relationships:
 
-Which of these relationships should be defined? What sort of relationships are they? Compare your answers to the ones below.
-*Students and Classes are linked by the Enrolled_In relationship
-*Classes and Teachers are linked by the Teaches relationship
-*Teachers and Staff are linked by the Member_Of relationship
+* Students and Teachers
+* Teachers and Classes
+* Teachers and Staff
+* Classes and Students
+* Classes and Staff
+* Staff and Students
+
+Which of these relationships should be defined? What sort of relationships are they? Compare your answers to the ones at the bottom of this tutorial.
+
 
 #### Why these relationships?
 
@@ -160,20 +160,12 @@ Why should we use these relationships, and not the others I mentioned? Because t
 ### Part 4: Connecting the dots
 
 Ok so now we are close to the end! Lets start out with this almost finished ER Diagram and then identify what can be changed. 
-![Basic ER DIAGRAM IMAGE](https://i.gyazo.com/944f5d59df27ec03b157ab9c0fac3036.png)
+![Basic ER DIAGRAM IMAGE](https://i.gyazo.com/61fb40872517e95a1bb598bb623caa62.png)
 
 Now with this ER Diagram, We can see everything we have learned so far put together with the basic entity types, relationships connecting them, and the attributes of each entity. 
 One thing we can do to make it better is to take this ER diagram and make sure the relationships match our cardinality requirements. I left that out so you can put it in yourself and then you can check below to make sure you got it correct.
 
 
-
-##### TO-DO FOR Logan:
-
-* Remake ER diagram to look nicer
-* Find a way to let the user interact with the making of the orignial ER diagram
-* Make the cardinality ER
-* Add in more attributes/entitys (everyone)
-* Make sure to get multivalued attribute and let user deicede what it is
 
 
 ### Problem Solutions
@@ -192,3 +184,13 @@ One thing we can do to make it better is to take this ER diagram and make sure t
 An **entity** is represented by a rectangle.
 
 ---------------------------------
+
+#### Problem 3:
+
+* Students and Classes are linked by the Enrolled_In relationship
+* Classes and Teachers are linked by the Teaches relationship
+* Teachers and Staff are linked by the Member_Of relationship
+
+## ER DIAGRAM WITH CARDINALITY
+
+![ ER DIAGRAM IMAGE](https://i.gyazo.com/a6709375de95e25dd6deec1f6c476fc9.png)
